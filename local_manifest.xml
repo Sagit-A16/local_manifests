@@ -11,13 +11,4 @@
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sagit-id" revision="lineage-23.0" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998-cip" remote="sagit-id" revision="bka" />
-  <remove-project path="build/make" name="build" groups="pdk,sysui-studio" remote="evo" />
-  <project path="build/make" name="build" remote="sagit-id" revision="bka" >
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
 </manifest>
