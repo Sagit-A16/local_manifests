@@ -13,4 +13,5 @@
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998-cip" remote="sagit-id" revision="bka" />
   <remove-project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-22.2-legacy-um" remote="LineageOS" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="sagit-id" revision="bka-legacy-um" />
+  <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="aosp" />
 </manifest>
