@@ -3,7 +3,11 @@
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A16" clone-depth="1" />
         <remote name="evox-bka" fetch="https://github.com/Evolution-X-Devices" clone-depth="1" />
-        <remote name="evox-gms" fetch="https://codeberg.org/deny2311" clone-depth="1" />
+        <remote  name="evox-gms"
+           fetch="https://codeberg.org/deny2311"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/bka" />
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="evolutionx-su" />
