@@ -6,8 +6,8 @@
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="evolutionx-su-old" />
   <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="bka-old" />
-  <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="bka-old" />
-  <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="bka-old" />
+  <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="bka" />
+  <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="bka" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sagit-id" revision="lineage-23.0" />
 </manifest>
