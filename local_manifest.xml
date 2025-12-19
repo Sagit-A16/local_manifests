@@ -14,5 +14,5 @@
   <remove-project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-23.0-legacy-um" />
   <project path="device/qcom/sepolicy-legacy-um" name="los_device_qcom_sepolicy" remote="sagit-id" revision="lineage-23.0-legacy-um" />
   <remove-project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio" remote="evo" />
-  <project path="frameworks/av" name="frameworks_av" remote="los23" revision="lineage-23.0" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="los23" revision="lineage-23.0" />
 </manifest>
