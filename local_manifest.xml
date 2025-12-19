@@ -3,7 +3,7 @@
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A16" clone-depth="1" />
         <remote name="evox-bka" fetch="https://github.com/Evolution-X-Devices" clone-depth="1" />
-
+        <remote name="los23" fetch="https://github.com/LineageOS" clone-depth="1" />
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="evolutionx-su" />
   <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="bka" />
@@ -13,4 +13,6 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evox-bka" revision="bka" />
   <remove-project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-23.0-legacy-um" />
   <project path="device/qcom/sepolicy-legacy-um" name="los_device_qcom_sepolicy" remote="sagit-id" revision="lineage-23.0-legacy-um" />
+  <remove-project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio" remote="evo" />
+  <project path="frameworks/av" name="frameworks_av" remote="los23" revision="lineage-23.0" />
 </manifest>
