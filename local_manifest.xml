@@ -4,13 +4,9 @@
         <remote name="sagit-id" fetch="https://github.com/Sagit-A16" clone-depth="1" />
 
         <!-- Trees -->
-  <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="evolutionx" />
-  <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="bka" />
-  <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="bka" />
-  <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="bka" />
+  <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="evo-bq2" />
+  <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="bq2" />
+  <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="bq2" />
+  <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="bq2" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sagit-id" revision="lineage-23.0" />
-  <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998-cip" remote="sagit-id" revision="bka" />
-  <remove-project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-22.2-legacy-um" remote="LineageOS" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="sagit-id" revision="bka-legacy-um" />
 </manifest>
