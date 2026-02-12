@@ -9,4 +9,6 @@
   <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="bq2" />
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="bq2" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
+  <remove-project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk,sysui-studio" remote="evo" revision="bq2" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sagit-id" revision="bq2" />
 </manifest>
